@@ -7,4 +7,9 @@ describe 'navigate' do
       expect(page.status_code).to eq(200)
     end
   end
+    describe 'contact' do
+      it 'contains a telephone number' do
+        expect(page.body).to include("09081428568")
+    end
+  end
 end
