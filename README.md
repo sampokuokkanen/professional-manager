@@ -1,24 +1,11 @@
-# README
+## ProManager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is going to show how many hours the users have worked per day. 
 
-Things you may want to cover:
+Models:
 
-* Ruby version
+- Time -> time:int,
+- User -> Devise
+- AdminUser -> STI
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Approval workflow, emails send out if user has worked over certain amount of hours per day, admin dashboard
